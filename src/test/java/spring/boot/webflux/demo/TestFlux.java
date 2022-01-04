@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import reactor.core.publisher.Flux;
 import reactor.test.StepVerifier;
-import spring.boot.webflux.modal.MonoTest;
+import spring.boot.webflux.modal.PublisherTest;
 
 public class TestFlux {
-	MonoTest monoTest = new MonoTest();
+	PublisherTest monoTest = new PublisherTest();
 
 	@Test
 	public void testFlux() {
